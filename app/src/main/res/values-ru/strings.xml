@@ -1,7 +1,7 @@
 <resources>
 
-    <string name="timer">Таймер</string>
-    <string name="history">История</string>
+    <string name="timer_menu">Таймер</string>
+    <string name="history_menu">История</string>
     <string name="city">Владивосток</string>
     <string name="current_weather_title">Текущая погода</string>
     <string name="current_weather">Сейчас</string>
@@ -16,5 +16,14 @@
     <string name="remaining_placeholder">25:00</string>
     <string name="start">Старт</string>
     <string name="stop">Стоп</string>
+    <string name="history_title">История сессий</string>
+    <string name="empty_history">Пока нет сохранённых сессий</string>
+    <string name="session_duration_format">%d мин</string>
+    <string name="session_completed">Завершено</string>
+    <string name="session_stopped_early">Остановлено раньше</string>
+    <string name="weather_unavailable">Погода недоступна</string>
+    <string name="weather_start">Начало: +1, cloudy</string>
+    <string name="weather_end">Конец: +1, cloudy</string>
+    <string name="weather_forecast_label">прогноз</string>
 
 </resources>
