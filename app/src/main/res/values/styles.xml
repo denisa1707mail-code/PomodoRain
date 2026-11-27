@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.PomodoRain.Title" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+    </style>
+
+    <style name="TextAppearance.PomodoRain.Body" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/rubik_regular</item>
+    </style>
+
+    <style name="TextAppearance.PomodoRain.Bottom" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/rubik_regular</item>
+    </style>
+
+    <style name="TextAppearance.PomodoRain.Subtitle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+    </style>
+
+    <style name="TextAppearance.PomodoRain.CardTitle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/rubik_regular</item>
+    </style>
+
+    <style name="TextAppearance.PomodoRain.Timer" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">64sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+    </style>
+</resources>

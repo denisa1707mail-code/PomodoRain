@@ -1,4 +1,20 @@
 <resources>
+
     <string name="timer">Таймер</string>
     <string name="history">История</string>
+    <string name="city">Владивосток</string>
+    <string name="current_weather_title">Текущая погода</string>
+    <string name="current_weather">Сейчас</string>
+    <string name="wind">Ветер: --</string>
+    <string name="duration_title">Длительность сессии</string>
+    <string name="duration_25">25 мин</string>
+    <string name="duration_50">50 мин</string>
+    <string name="duration_90">90 мин</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="end_weather_title">Погода на конец</string>
+    <string name="end_weather">Прогноз на конец</string>
+    <string name="remaining_placeholder">25:00</string>
+    <string name="start">Старт</string>
+    <string name="stop">Стоп</string>
+
 </resources>

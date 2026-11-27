@@ -2,4 +2,18 @@
     <string name="app_name" translatable="false">PomodoRain</string>
     <string name="timer">Timer</string>
     <string name="history">History</string>
+    <string name="city">Vladivostok</string>
+    <string name="current_weather_title">Current weather</string>
+    <string name="current_weather">Current</string>
+    <string name="wind">Wind: --</string>
+    <string name="duration_title">Session duration</string>
+    <string name="duration_25">25 min</string>
+    <string name="duration_50">50 min</string>
+    <string name="duration_90">90 min</string>
+    <string name="confirm">Confirm</string>
+    <string name="end_weather_title">Forecast for the end</string>
+    <string name="end_weather">End</string>
+    <string name="remaining_placeholder">25:00</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
 </resources>
