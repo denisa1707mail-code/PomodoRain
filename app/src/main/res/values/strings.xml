@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">PomodoRain</string>
+    <string name="app_name" translatable="false">PomodoRain</string>
+    <string name="timer">Timer</string>
+    <string name="history">History</string>
 </resources>
