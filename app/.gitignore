@@ -1,1 +1,4 @@
 /build
+**/ExampleUnitTest.kt
+**/ExampleInstrumentedTest.kt
+**/keepRules/
