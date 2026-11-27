@@ -8,13 +8,13 @@
     <fragment
         android:id="@+id/timerFragment"
         android:name="com.example.pomodorain.ui.timer.TimerFragment"
-        android:label="@string/timer"
+        android:label="@string/timer_menu"
         tools:layout="@layout/fragment_timer" />
 
     <fragment
         android:id="@+id/historyFragment"
         android:name="com.example.pomodorain.ui.history.HistoryFragment"
-        android:label="@string/history"
+        android:label="@string/history_menu"
         tools:layout="@layout/fragment_history" />
 
 

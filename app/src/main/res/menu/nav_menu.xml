@@ -4,11 +4,11 @@
     <item
         android:id="@+id/timerFragment"
         android:icon="@drawable/ic_menu_hourglass_top"
-        android:title="@string/timer" />
+        android:title="@string/timer_menu" />
 
     <item
         android:id="@+id/historyFragment"
         android:icon="@drawable/ic_menu_history"
-        android:title="@string/history" />
+        android:title="@string/history_menu" />
 
 </menu>

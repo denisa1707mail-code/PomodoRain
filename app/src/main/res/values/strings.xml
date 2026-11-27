@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name" translatable="false">PomodoRain</string>
-    <string name="timer">Timer</string>
-    <string name="history">History</string>
+    <string name="timer_menu">Timer</string>
+    <string name="history_menu">History</string>
+
     <string name="city">Vladivostok</string>
     <string name="current_weather_title">Current weather</string>
     <string name="current_weather">Current</string>
@@ -16,4 +17,13 @@
     <string name="remaining_placeholder">25:00</string>
     <string name="start">Start</string>
     <string name="stop">Stop</string>
+
+    <string name="empty_history">No saved sessions yet</string>
+    <string name="session_date_time" translatable="false">01.01.1999, 00:00</string>
+    <string name="session_duration_format">%d min</string>
+    <string name="session_completed">Completed</string>
+    <string name="session_stopped_early">Stopped earlier</string>
+    <string name="weather_unavailable">Weather unavailable</string>
+    <string name="weather_start">Start: +1, cloudy</string>
+    <string name="weather_end">End: +1, cloudy</string>
 </resources>
