@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools">
+    android:layout_height="match_parent">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvSessions"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp"
-        android:clipToPadding="false" />
+        android:clipToPadding="false"
+        android:padding="16dp" />
 
     <LinearLayout
-        android:id="@+id/llEmptyState"
+        android:id="@+id/llEmptyHistory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -27,5 +27,13 @@
             android:text="@string/empty_history" />
 
     </LinearLayout>
+
+<!--    TODO: удалить кнопку после дабвления функционала сохранения сессий-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="test_btn"/>
 
 </FrameLayout>
