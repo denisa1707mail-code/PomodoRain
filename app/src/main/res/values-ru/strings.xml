@@ -22,8 +22,8 @@
     <string name="session_completed">Завершено</string>
     <string name="session_stopped_early">Остановлено раньше</string>
     <string name="weather_unavailable">Погода недоступна</string>
-    <string name="weather_start">Начало: +1, cloudy</string>
-    <string name="weather_end">Конец: +1, cloudy</string>
+    <string name="weather_start">Начало: %s</string>
+    <string name="weather_end">Конец: %s</string>
     <string name="weather_forecast_label">прогноз</string>
 
 </resources>

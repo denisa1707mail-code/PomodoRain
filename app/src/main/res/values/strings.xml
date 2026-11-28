@@ -24,6 +24,8 @@
     <string name="session_completed">Completed</string>
     <string name="session_stopped_early">Stopped earlier</string>
     <string name="weather_unavailable">Weather unavailable</string>
-    <string name="weather_start">Start: +1, cloudy</string>
-    <string name="weather_end">End: +1, cloudy</string>
+    <string name="weather_start">Start: %s</string>
+    <string name="weather_end">End: %s</string>
+    <string name="history_title">Session history</string>
+    <string name="weather_forecast_label">forecast</string>
 </resources>
