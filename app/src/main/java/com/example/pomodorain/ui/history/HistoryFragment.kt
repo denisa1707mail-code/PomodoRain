@@ -19,11 +19,13 @@ class HistoryFragment : Fragment() {
 
     private var _binding: FragmentHistoryBinding? = null
     private val binding: FragmentHistoryBinding
-        get() = _binding ?: throw IllegalStateException("FragmentHistoryBinding for HistoryFragment must not be null")
+        get() = requireNotNull(_binding) {
+            "FragmentHistoryBinding for HistoryFragment must not be null"
+        }
 
     private val viewModel: HistoryViewModel by viewModels()
 
-    private lateinit var adapter: SessionAdapter
+    private val adapter by lazy { SessionAdapter() }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -43,8 +45,6 @@ class HistoryFragment : Fragment() {
     }
 
     private fun setupRecyclerView() {
-        adapter = SessionAdapter()
-
         binding.rvSessions.apply {
             layoutManager = LinearLayoutManager(requireContext())
             adapter = this@HistoryFragment.adapter
@@ -84,6 +84,7 @@ class HistoryFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        binding.rvSessions.adapter = null
         _binding = null
     }
 
